@@ -2,3 +2,46 @@ h1{
     color: blueviolet;
     font-size: 55px;
 }
+#h1-2{
+    color: blue;
+    font-size: 35px;
+    background: coral;
+}
+#h1-3{
+    color: red;
+    font-size: 45px;
+} 
+p{
+    color: aqua;
+}
+
+.h1-class{  
+    color: darkorange;
+    font-size: 33px;
+}   
+#p1{
+    color: chartreuse;
+}
+.bkgrn{
+    background-color: coral;
+}
+.color1{
+    background-color: crimson;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 35px 35px;
+}
+.color2{
+    background-color: #ff6347;
+    font-size: 25px;
+    margin: 75px 75px;
+    padding: 50px 50px;
+}
+.color3{
+    color: rgb(255, 99, 71);
+    background-color: aqua;
+    font-size: 35px;
+    margin: 100px 200px;
+    padding: 25px 25px;
+}
