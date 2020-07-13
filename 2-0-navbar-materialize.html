@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <title>Navbar Materialize</title>
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <div class="container">
+
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" class="sidenav-trigger"  data-target="menu-responsive">
+                <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="">Inicio</a></li>
+                <li><a href="#" class="">Servicios</a></li>
+                <li><a href="#" class="">Productos</a></li>
+                <li><a href="#" class="">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="menu-responsive">
+        <li><a href="#" class="">Inicio</a></li>
+        <li><a href="#" class="">Servicios</a></li>
+        <li><a href="#" class="">Productos</a></li>
+        <li><a href="#" class="">Contacto</a></li>
+    </ul>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+    </script>
+    	  <!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+</body>
+</html>
