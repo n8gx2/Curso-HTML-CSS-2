@@ -1,0 +1,16 @@
+nav{
+    background-color: #08d9d6;
+    padding: 20px;
+    font-size: 25px;
+}
+.parraf{
+    font-size: 15px;
+    color:#eaeaea;
+    background-color: #ff2e63;
+    padding: 20px;
+    width: 25% ;
+    margin: 10px;
+}
+.sect1{
+    display: flex;
+}
