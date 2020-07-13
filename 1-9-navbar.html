@@ -11,11 +11,20 @@
 
     </header>
     <nav>
-        <button class="nav_boton">Menú</button>
-        <a href="#" class="nav_enlace">Inicio</a>
-        <a href="#" class="nav_enlace">Nosotros</a>
-        <a href="#" class="nav_enlace">Servicio</a>
-        <a href="#" class="nav_enlace">Contacto</a>
+        <button class="nav_boton" onclick="accion()">Menú</button>
+        <a href="#" class="nav_enlace hide_href">Inicio</a>
+        <a href="#" class="nav_enlace hide_href">Nosotros</a>
+        <a href="#" class="nav_enlace hide_href">Servicio</a>
+        <a href="#" class="nav_enlace hide_href">Contacto</a>
     </nav>
+    <script>
+        function accion(){
+            console.log("está funcionando");
+            var ancla = document.getElementsByClassName("nav_enlace");
+            for(var i=0;i < ancla.length; i++){
+                ancla[i].classList.toggle("hide_href");
+            }
+        }
+    </script>
 </body>
 </html>

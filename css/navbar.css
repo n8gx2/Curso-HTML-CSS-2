@@ -34,4 +34,7 @@ nav{
     .nav_boton{
         display: inline-block;
     }    
+    .hide_href{
+        display: none;
+    }
   }
