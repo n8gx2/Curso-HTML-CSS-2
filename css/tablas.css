@@ -4,11 +4,12 @@ font-family: 'Lato', sans-serif;
 }
 .container{
     margin: 0px auto;
-    width: 90%;
+    width: 100%;
 
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .centrado{
     text-align: center;
@@ -17,12 +18,39 @@ font-family: 'Lato', sans-serif;
     background: rgb(238,238, 238);
     color: #333;
     border: 1px solid #333;
-    margin: 10px;
+    margin: 0 auto;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: -10px -10px 5px #888888;
+    width: 23%;
+    box-sizing: border-box;
+
 }
 .precio{
     font-size: 50px;
     color: aquamarine;
+}
+
+.btn-precio{
+    background:#ff7f50 ;
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn-precio:hover{
+    background:#d34c1b ;
+}
+@media(max-width:1070px){
+    .columna{
+        width: 45%;       
+        margin-top: 10px;
+    }
+}
+@media(max-width:600px){
+    .columna{
+        width: 100%;       
+        margin-top: 20px;
+    }
 }
