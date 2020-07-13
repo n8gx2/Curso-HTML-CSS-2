@@ -1,0 +1,10 @@
+h1{
+    background-color: coral;
+    font-size: 25px;
+    display: inline-block;
+}
+
+a{
+    background-color:greenyellow;
+    display: block;
+}
